@@ -5,7 +5,7 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Graham Bailey - Personal Blog`,
   },
   flags: {
     FAST_DEV: true,
@@ -24,15 +24,19 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Contact`,
+            slug: `/contact`,
+          },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/grahambailey`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Podcast`,
+            url: `https://anchor.fm/fiq`,
           },
         ],
       },
